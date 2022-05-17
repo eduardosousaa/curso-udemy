@@ -1,0 +1,8 @@
+body {
+    /* background: blue url("imagem/yoshi2.png") no-repeat fixed center center; */
+    background-color: aqua;
+    background-image: url("imagem/yoshi2.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center top;
+}
