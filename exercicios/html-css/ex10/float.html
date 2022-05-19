@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos Flutuantes</title>
+    <style>
+        #principal {
+            border: 10px solid rgba(255, 0, 0, 0.721);
+            background-color: rgba(7, 178, 7, 0.662);
+        }
+
+        .modelo {
+            background-color: rgb(28, 187, 187);
+            border: 1px solid black;
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            float: left;
+        }
+        
+        /*
+        .modelo2 {
+            background-color: rgba(255, 0, 0, 0.704);
+            border: 1px solid black;
+            width: 300px;
+            height: 300px;
+            margin: 20px;
+            float: left;
+        }
+       */
+
+       .clear {
+           clear: both;
+       }
+    </style>
+</head>
+<body>
+    <div id="principal">
+        <div class="modelo">
+            modelo 1
+        </div>
+        <div class="modelo">
+            modelo 2
+        </div>
+        <div class="modelo">
+            modelo 3
+        </div>
+        <p class="clear">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse quidem minus excepturi eius natus. Necessitatibus ea in dolorum exercitationem. Deleniti, nisi veniam eius error explicabo sapiente illo. Ea, doloribus maiores!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse quidem minus excepturi eius natus. Necessitatibus ea in dolorum exercitationem. Deleniti, nisi veniam eius error explicabo sapiente illo. Ea, doloribus maiores!
+        </p>
+    </div>
+    
+</body>
+</html>
