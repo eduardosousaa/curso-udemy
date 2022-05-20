@@ -27,7 +27,7 @@
 
 			.relative {
 				border: 1px solid red;
-				position: relative;
+				position: static;
 				/* top, right, bottom e left */
 				/*top: 0px;
 				left: 0px;
