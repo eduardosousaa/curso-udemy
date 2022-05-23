@@ -1,0 +1,32 @@
+header {
+    background-color: white;
+}
+
+a {
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+/* Links não visitados */
+a:link, a:visited {
+    color: #b9c941;
+}
+
+
+/* Links visitados 
+a:visited {
+    color: #b9c941;
+}
+*/
+
+/* Links hover, para o cursor sobre o link */
+a:hover {
+    color: white;
+    background-color: #6d790f;
+}
+
+
+/* Links ativos, quando clicados */
+a:active {
+    color: #e4f371;
+}
