@@ -1,0 +1,34 @@
+/* Barra de navegação horizontal */
+ul#navegacao {
+
+    padding: 10px;
+    margin: 0px;
+    list-style: none;
+    width: 720px;
+    background: #159cb0 url('../imagens/fundo-horizontal.png') no-repeat;
+    text-indent: 25px;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover {
+    background: aqua;
+    color: black;
+}
+
+
+.sobre, .servicos, .noticias, .contatos {
+    background: url('../imagens/divisor.png') no-repeat;
+}
+
+.preto {
+    color: black;
+}
