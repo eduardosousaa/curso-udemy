@@ -1,0 +1,87 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+    background-color: #f2f2f2;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    background: #f2f2f2 url('imagens/coluna.png') repeat-y left top;
+    min-width: 720px;
+    max-width: 1280px;
+}
+
+#marca {
+    height: 200px;
+    background: #215891 url('imagens/cabecalho2.jpg') no-repeat center;
+    text-align: center;
+    line-height: 200px;
+}
+
+
+.imagem {
+    width: 94%;
+    padding: 2px;
+    max-width: 600px;
+}
+
+#conteudo {
+    width: 75%;
+    float: right;
+    padding: 10px;
+}
+
+
+#conteudo1 {
+    width: 63%;
+    float: left;
+    background-color: white;
+}
+
+#conteudo2 {
+    width: 34%;
+    float: right;
+    background-color: #d1d1d1;
+}
+
+#conteudo2 h1, 
+#conteudo2 h2, 
+#conteudo2 h3, 
+#conteudo2 p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#navegacao {
+    width: 23%;
+    float: left left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background-color: #d1d1d1; */
+    
+}
+
+#navegacao ul {
+    list-style: none;
+    padding: 20px;
+}
+
+#navegacao li a {
+    text-decoration: none;
+}
+
+#navegacao li a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+#rodape {
+    clear: both;
+    background-color: #9e9e9e;
+    padding: 5px;
+}
