@@ -8,36 +8,25 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
     <div id="container">
 
         <img src="imagens/perfil.png" alt="perfil">
 
-        <div id="primeiro">
-            <!--<img class="usuario" src="imagens/icone-usuario.png" alt="icone">-->
-            <label for="email" class="icone-usuario"> 
-                Digite o seu email <input type="text" name="email" id="email">
-            </label>
+        <form>
+            <div>
+                <input class="email" type="text" name="email" id="email" placeholder="Digite o seu e-mail">
+            </div>
 
-        </div>
+            <div>
+                <input class="senha" type="text" name="senha" id="senha" placeholder="Digite a sua senha">
+            </div>
 
-        <br>
-
-        <div >
-            <!--<img class="icone" src="imagens/icone-cadeado.png" alt="cadeado">-->
-            <label for="senha" class="icone-cadeado"> 
-                Digite a sua senha <input type="text" name="senha" id="senha">
-            </label>
-
-        </div>
-
-        <br>
-
-        <div>
-            <label for="logar">
-                <button>Logar</button>
-            </label>
-        </div>
-
+            <div>
+                <input class="submit" type="submit" value="Logar">
+            </div>
+        </form>
+        
     </div>
 </body>
 </html>

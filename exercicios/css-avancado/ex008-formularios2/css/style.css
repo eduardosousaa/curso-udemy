@@ -1,7 +1,7 @@
 /* Estilizando formulários - Parte 2 */
 body {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    background: #643d87 url('../imagens/fundo.jpg') no-repeat top center;
+    background: #643d87 url(../imagens/fundo.jpg) no-repeat top center;
 }
 
 #container {
@@ -24,35 +24,34 @@ body {
 }
 
 
-.icone-usuario {
-    background-color: white;
-    padding: 10px;
-    text-align: center;
+input {
+    height: 40px;
+    width: 80%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding-left: 40px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: 10px;
 }
 
-.icone-cadeado {
-    background-color: white;
-    padding: 10px;
-    text-align: center;
+input.email {
+    background-image: url(../imagens/icone-usuario.png);
 }
 
-#email, #senha {
-    border: 1px solid white;
+input.senha {
+    background-image: url(../imagens/icone-cadeado.png);
 }
 
-label {
-    cursor: pointer;
+input.submit {
+    color: #fff;
+	background-color: #f79300;
+	border: 2px solid #db7d00;
+	padding: 5px 20px;
+	height: 45px;
+	width: 90%;
+
 }
 
-#primeiro {
-    margin: 10px auto;
-}
-
-button {
-    background-color: rgba(255, 166, 0, 0.852);
-    width: 83%;
-    height: 50px;
-    color: white;
-    font-size: 1em;
-}
 
