@@ -1,0 +1,95 @@
+/* Estilo do site de notícias */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #fff url(../imagens/fundo.png) repeat-x;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+#container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+#topo {
+    height: 150px;
+    background: url(../imagens/detalhe-topo.png) no-repeat right top;
+    padding-top: 25px;
+}
+
+.logo {
+    background: url(../imagens/logo.png) no-repeat left center;
+    width: 152px;
+    height: 66px;
+    text-indent: -3000px;
+}
+
+/* Configurando a barra de navegação horrizontal */
+
+ul#navegacao {
+    list-style: none;
+    padding: 10px;
+    margin-top: 25px;
+    width: 500px;
+    background-color: rgba(255, 0, 0, 0.624);
+    text-indent: 25px;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+}
+
+a:hover {
+    color: black;
+    background-color: rgb(186, 10, 10);
+}
+
+/* Configurando layout de três colunas */ 
+#conteudo {
+    margin-top: 60px;
+    background-color: #f5f5f5;
+}
+
+#primario {
+    width: 270px;
+    background-color: blue;
+    margin: 0 0 20px 195px;
+    float: left;
+}
+
+#secundario {
+    width: 270px;
+    background-color: green;
+    margin: 0 0 20px 15px;
+    float: left;
+}
+
+#lateral {
+    width: 180px;
+    background-color: yellow;
+    margin: 0 0 20px -750px;
+    float: left;
+}
+
+/* Configurando rodape do site */
+
+#container-rodape {
+    background-color: #294c71;
+    padding: 20px;
+}
+
+#rodape {
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
