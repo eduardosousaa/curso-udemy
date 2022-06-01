@@ -38,17 +38,17 @@ ul#navegacao {
     text-indent: 25px;
 }
 
-li {
+#navegacao li {
     display: inline;
 }
 
-a {
+#navegacao a {
     color: white;
     text-decoration: none;
     padding: 4px;
 }
 
-a:hover {
+#navegacao a:hover {
     color: black;
     background-color: rgb(186, 10, 10);
 }
@@ -61,24 +61,117 @@ a:hover {
 
 #primario {
     width: 270px;
-    background-color: blue;
     margin: 0 0 20px 195px;
     float: left;
 }
 
+#duas-colunas #primario {
+    width: 555px;
+}
+
+#uma-colunas #primario {
+    width:750px;
+    margin: 0 0 20px 0;
+}
+
 #secundario {
     width: 270px;
-    background-color: green;
     margin: 0 0 20px 15px;
     float: left;
 }
 
 #lateral {
     width: 180px;
-    background-color: yellow;
     margin: 0 0 20px -750px;
     float: left;
 }
+
+/* Configurando a caixa */
+
+#caixa {
+    background: url(../imagens/fundo-caixa.png);
+    margin: 10px 0;
+    padding: 5px;
+}
+
+h2 {
+    font-size: 1em;
+    background-color: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+#caixa-conteudo {
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+ul#lista {
+    list-style-type: none;
+}
+
+#lista li {
+    padding: 5px;
+    font-weight: bold;
+}
+
+#lista a {
+    text-decoration: none;
+    color: #000;
+}
+
+#lista a:hover {
+    color: gray;
+}
+
+/* Formatando o fórmulário */
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    width: 125px;
+    padding: 5px;
+    font-size: 0.9em;
+    background-color: #fff;
+    border: 1px solid #8080807d;
+}
+
+input.submit {
+    width: 80px;
+    background-color: #b10333;
+    color: #fff;
+    border: 2px solid #870529;
+}
+
+/*Configurando imagens */
+
+img.imagem-principal {
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+/*Configurando cabeçalho */
+
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3 {
+    background-color: #b10333;
+    color: #fff;
+}
+
+.entrevista h3 {
+    background-color: #de003e;
+}
+
 
 /* Configurando rodape do site */
 
