@@ -27,6 +27,17 @@ body {
     text-indent: -3000px;
 }
 
+/* Configurando a barra de notificação */
+
+a:link, a:visited {
+    color: #b10333;
+    padding: 2px;
+}
+
+a:hover {
+    color: #e50040;
+}
+
 /* Configurando a barra de navegação horrizontal */
 
 ul#navegacao {
@@ -69,7 +80,7 @@ ul#navegacao {
     width: 555px;
 }
 
-#uma-colunas #primario {
+#uma-coluna #primario {
     width:750px;
     margin: 0 0 20px 0;
 }
@@ -107,7 +118,7 @@ h2 {
     margin-top: 5px;
 }
 
-ul#lista {
+ul {
     list-style-type: none;
 }
 
@@ -172,6 +183,38 @@ h3 {
     background-color: #de003e;
 }
 
+/* Configurando a lista de notícias */
+
+#lista-noticia li {
+    padding: 2px;
+    margin-bottom: 1px solid #ccc;
+    height: 65px;
+}
+
+#lista-noticia li a img {
+    float: left;
+    margin: 5px;
+}
+
+#lista-noticia li a {
+    text-decoration: none;
+}
+
+#lista-noticia li a h3 {
+    font-size: 0.8em;
+    padding: 0;
+    color: #3e7ab9;
+}
+
+#lista-noticia li a p {
+    font-size: 0.7em;
+    color: #000;
+}
+
+#lista-noticia li:hover{
+    background-color: #eee;
+    cursor: pointer;
+}
 
 /* Configurando rodape do site */
 
