@@ -42,16 +42,6 @@ body {
     height: 250px;
 }
 
-.logo {
-
-}
-
-#area-menu {
-
-}
-
-
-
 #menu-locais .locais {
     float: left;
     line-height: 2.1em;
@@ -66,9 +56,6 @@ a {
     text-indent: 60px;
 }
 
-.reserva {
-    
-}
 
 a.reserva {
     text-transform: uppercase;
@@ -113,4 +100,77 @@ ul#navegacao a:hover {
 
 .locais {
     text-indent: 30px;
+}
+
+/* Configurando área de conteúdos */
+
+#area-principal {
+    background: url(../imagens/bg-area-principal.png) top left repeat-x ;
+    float: left;
+    width: 50%;
+    padding: 15px 0;
+}
+
+#area-lateral {
+    background: #dbd8b7 url(../imagens/bg-area-lateral.png) top left repeat-x;
+    float: right;
+    width: 50%;
+    padding: 20px 0px;
+}
+
+.conteudo {
+    margin: 0 auto;
+    width: 90%;
+}
+
+#rodape {
+    clear: both;
+    padding: 16px;
+    background: #fff url(../imagens/bg-rodape.png) repeat-x top;
+    color: #7d7640;
+    text-align: center;
+}
+
+/* Formatações de texto */
+
+h2 {
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 5px 0px;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+/* Formatações área lateral */
+
+#beneficios li {
+    padding: 8px;
+    border-bottom: 1px solid #f3e5cb;
+    height: 6em;
+    list-style: none;
+}
+
+#beneficios li a img {
+    float: left;
+    margin-right: 8px;
+}
+
+#beneficios li a p {
+    font-size: 0.8em;
+    color: #000;
+}
+
+#beneficios li a h3 {
+    font-size: 1em;
+    color: #615b2d;
+    padding: 5px 0px;
+    background: url(../imagens/ornamento.png) no-repeat center right;
+}
+
+#beneficios li:hover {
+    background: #f6f3d6;
+    cursor: pointer;
 }
