@@ -1,0 +1,77 @@
+/* Configurações padrões */
+body, html {
+    font: 16px 'Lato' sans-serif;
+    margin: 0;
+    height: 100%;
+    color: #777;
+}
+
+/* Configurando conteúdo */
+.conteudo {
+    text-align: justify;
+    padding: 50px 80px;
+    color: #777;
+    background-color: white;
+}
+
+h3 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Configurando caixas */
+
+#caixa1, #caixa2, #caixa3, #caixa4, #caixa5, #caixa6 {
+    height: 100%;
+    box-shadow: 6px 6px 13px 0px black;
+}
+
+#caixa1 {
+    background: url(../imagens/imagem1.jpg) top center repeat;
+    background-attachment: fixed;
+}
+
+#caixa2 {
+    background: url(../imagens/imagem2.jpg) top center repeat;
+    background-attachment: fixed;
+}
+
+#caixa3 {
+    background: url(../imagens/imagem3.jpg) top center repeat;
+    background-attachment: fixed;
+}
+
+#caixa4 {
+    background: url(../imagens/imagem4.jpg) top center repeat;
+    background-attachment: fixed;
+}
+
+#caixa5 {
+    background: url(../imagens/imagem5.jpg) top center repeat;
+    background-attachment: fixed;
+}
+
+#caixa6 {
+    background: url(../imagens/imagem6.jpg) top center repeat;
+    background-attachment: fixed;
+}
+
+/* Configurando ciaxas dentro das imagens */
+
+#baloes, #estrada, #sol, #montonhas, #mar, #praia {
+    display: inline-block;
+    background-color: black;
+    padding: 0px 15px;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    top: 50%;
+    right: 38%;
+    left: 38%;
+    opacity: 0.6;
+}
