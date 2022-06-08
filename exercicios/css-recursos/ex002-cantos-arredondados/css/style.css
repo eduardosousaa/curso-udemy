@@ -1,0 +1,10 @@
+/* Configurando caixa */
+#caixa {
+    width: 500px;
+    height: 400px;
+    background: #b9c941 url(../imagem/perfil.jpg) bottom;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px 40px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.407);
+}
