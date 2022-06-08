@@ -1,0 +1,23 @@
+@keyframes animation {
+    0% {background-color: purple;}
+    50% {background-color: yellow; width: 200px;}
+    100% {background-color: aqua; width: 100px;}
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.caixa {
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+    background-color: purple;
+    animation-name: animation;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
