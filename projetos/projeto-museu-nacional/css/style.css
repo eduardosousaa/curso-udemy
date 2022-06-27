@@ -4,6 +4,10 @@ body {
     font: 12px 'Lucida Grande', 'Lucida Sans Unicode', Arial, sans-serif;
 }
 
+section {
+    display: block;
+}
+
 #container {
     width: 1080px;
     margin: 0 auto;
@@ -110,4 +114,31 @@ fieldset {
 
 legend {
     display: none;
+}
+
+/* Configurando vídeo */
+article#video {
+    float: left;
+    width: 310px;
+    margin-left: 25px;
+}
+
+/* Configurando mapa */
+article#mapa {
+    float: right;
+    width: 310px;
+    margin-left: 37px;
+}
+
+/* Configurando exposições */
+article#exposicoes {
+    float: left;
+    width: 310px;
+    margin: 15px 0 0 25px;
+}
+
+article#historia {
+    float: right;
+    width: 310px;
+    margin: 25px 0 0 37px;
 }
