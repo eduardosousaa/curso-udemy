@@ -66,7 +66,6 @@ nav ul li a:hover {
 #conteudo {
     width: 710px;
     float: left;
-    background: green;
 }
 
 aside {
@@ -123,6 +122,12 @@ article#video {
     margin-left: 25px;
 }
 
+article#video, h3 {
+    color: #227115;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
 /* Configurando mapa */
 article#mapa {
     float: right;
@@ -140,5 +145,18 @@ article#exposicoes {
 article#historia {
     float: right;
     width: 310px;
-    margin: 25px 0 0 37px;
+    margin: 15px 0 0 37px;
 }
+
+
+/* Galeria */
+section#galeria img {
+    margin-left: 2px;
+    margin-top: 3px;
+}
+
+section#galeria {
+    padding: 0 27px 0 27px;
+}
+
+/* Footer */
